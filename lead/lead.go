@@ -3,7 +3,7 @@ import(
 "github.com/pistonamey/go-lambda-function/database"
 "github.com/jinzhu/gorm"
 "github.com/gofiber/fiber"
-"github.com/jinzhu/gorm/dialects/sqlite"
+_"github.com/jinzhu/gorm/dialects/sqlite"
 )
 
 type Lead struct {
