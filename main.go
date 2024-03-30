@@ -22,7 +22,7 @@ func initDatabase() {
 	if err != nil {
 		panic("failed to connect database")
 	}
-	fmt.Println("Connection opened to database")
+	fmt.Println("Connection opened to the database")
 	database.DBConn.AutoMigrate(&lead.Lead{})
 	fmt.Println("Database Migrated")
 }
